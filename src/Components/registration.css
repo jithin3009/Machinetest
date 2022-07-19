@@ -1,0 +1,12 @@
+.heading{
+    width: 100px;
+}
+#login{
+    margin-top: 5%;
+    margin-left: 20%;
+    background-color: rgb(200, 200, 200);  
+    color: black;
+}
+.registerhead{
+    text-align: center;
+}
