@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Alert } from "react-bootstrap";
 import Home from "./Home";
-
+import './Login.css'
 function Login() {
   const [emaillog, setEmaillog] = useState(" ");
   const [passwordlog, setPasswordlog] = useState(" ");
@@ -46,7 +46,7 @@ function Login() {
     <div>
       {home ? (
         <form onSubmit={handleLogin}>
-          <h3 className="registerhead">LogIn</h3>
+          <h2 className="registerhead">Login</h2>
 
           <br></br>
 
@@ -54,7 +54,7 @@ function Login() {
            <div className="form-group">
               <table className="container">
                 <tr>
-                  <td className="heading">Email</td>
+                  <td className="heading"><b>Email</b></td>
                   <td>:</td>
                   <td>
                     <input
@@ -72,11 +72,11 @@ function Login() {
            <div className="form-group">
               <table className="container">
                 <tr>
-                  <td className="heading">Password</td>
+                  <td className="heading"><b>Password</b></td>
                   <td>:</td>
                   <td>
                     <input
-                      type="text"
+                      type="password"
                       className="form-control"
                       name="name"
                       onChange={(event) => setPasswordlog(event.target.value)}/>
@@ -89,8 +89,8 @@ function Login() {
             <br></br>
          
 
-          <button type="submit" className="btn btnLog">
-            Login
+          <button type="submit" id="login" className="btn btnLog">
+          <b>Login</b>
           </button>
         
 

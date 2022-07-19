@@ -1,19 +1,13 @@
-.heading{
-    width: 100px;
-}
-#register{
-    margin-top: 5%;
+#login{
+    margin-top: 2%;
     margin-left: 20%;
     background-color: rgb(200, 200, 200);  
     color: black;
 }
-#register:hover{
-    margin-top: 5%;
+#login:hover{
+    margin-top: 2%;
     margin-left: 20%;
     background-color: rgb(0, 0, 0);  
     color: rgb(255, 255, 255);
     transition: 0.5s;
-}
-.registerhead{
-    text-align: center;
 }

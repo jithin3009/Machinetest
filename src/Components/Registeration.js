@@ -51,7 +51,7 @@ function Registration() {
         
         (
           <form onSubmit={handleFormSubmit}>
-            <h3 className="registerhead">Registration</h3>
+            <h2 className="registerhead">Registration</h2>
             
 
             <br></br>
@@ -60,7 +60,7 @@ function Registration() {
             <div className="form-group">
               <table className="container">
                 <tr>
-                  <td className="heading">name</td>
+                  <td className="heading"><b>Name</b></td>
                   <td>:</td>
                   <td>
                     <input
@@ -79,7 +79,7 @@ function Registration() {
             <div className="form-group">
               <table className="container">
                 <tr>
-                  <td className="heading">Email</td>
+                  <td className="heading"><b>Email</b></td>
                   <td>:</td>
                   <td><input
                     type="email"
@@ -97,7 +97,7 @@ function Registration() {
             <div className="form-group">
               <table className="container">
                 <tr>
-                  <td  className="heading">Password</td>
+                  <td  className="heading"><b>Password</b></td>
                   <td>:</td>
                   <td><input
                 type="password"
@@ -115,7 +115,7 @@ function Registration() {
               <div className="form-group">
               <table className="container">
                 <tr>
-                  <td className="heading">Place</td>
+                  <td className="heading"><b>Place</b></td>
                   <td>:</td>
                   <td> <input
                 type="text"
@@ -138,8 +138,8 @@ function Registration() {
 
 
             <div>
-            <button type="submit" id="login" className="btn btn-dark btn-lg btn-block">
-              Register
+            <button type="submit" id="register" className="btn btn-dark btn-lg btn-block">
+            <b>Register</b>
             </button>
             
 

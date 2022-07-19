@@ -35,7 +35,7 @@ const Addproduct = ({ AddProduct }) => {
     }
     return (
         <center className="center">
-            <h4 className='registerhead'>Add Product</h4>
+            <h2 className='registerhead'><b>Add Products</b></h2>
             <div class="card">
                 <div class="card-body">
                     <form onSubmit={handleFormSubmit}>
@@ -44,7 +44,7 @@ const Addproduct = ({ AddProduct }) => {
                         <div className="form-group">
                             <table className="container">
                                 <tr>
-                                    <td className="heading">Name</td>
+                                    <td className="heading"><b>Name</b></td>
                                     <td>:</td>
                                     <td>
                                         <input type="text"
@@ -61,7 +61,7 @@ const Addproduct = ({ AddProduct }) => {
                         <div className="form-group">
                             <table className="container">
                                 <tr>
-                                    <td className="heading">Price</td>
+                                    <td className="heading"><b>Price</b></td>
                                     <td>:</td>
                                     <td>
                                         <input type="text"
@@ -77,7 +77,7 @@ const Addproduct = ({ AddProduct }) => {
                         <div className="form-group">
                             <table className="container">
                                 <tr>
-                                    <td className="heading">Quantity</td>
+                                    <td className="heading"><b>Quantity</b></td>
                                     <td>:</td>
                                     <td>
                                         <input type="text"
@@ -93,7 +93,7 @@ const Addproduct = ({ AddProduct }) => {
                         <div className="form-group">
                             <table className="container">
                                 <tr>
-                                    <td className="heading">Category</td>
+                                    <td className="heading"><b>Category</b></td>
                                     <td>:</td>
                                     <td>
                                         <input type="text"
@@ -111,8 +111,8 @@ const Addproduct = ({ AddProduct }) => {
 
                         <br></br>
 
-                        <button className='btn'>
-                            Addproduct
+                        <button className='btn' id='add'>
+                        <b>Add product</b>
                         </button>
 
                     </form>
