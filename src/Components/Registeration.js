@@ -141,18 +141,20 @@ function Registration() {
             <button type="submit" id="login" className="btn btn-dark btn-lg btn-block">
               Register
             </button>
+            
 
             
 
 
             </div>
-          
-
+            <br></br>
             {flag && (
               <Alert>
                 *All Fields are mandatory
               </Alert>
             )}
+
+            
 
           </form>
         ) 

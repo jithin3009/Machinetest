@@ -95,8 +95,8 @@ function Login() {
         
 
           {flag && (
-            <Alert color="primary" variant="warning">
-              Fill correct Info else keep trying.
+            <Alert>
+              enter valid information
             </Alert>
           )}
         </form>
